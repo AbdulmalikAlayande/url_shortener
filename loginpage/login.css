@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.LOGIN_PAGE_DIV{
+    width: 50%;
+    border-style: solid;
+    height: 700px;
+    border-width: 1px;
+}

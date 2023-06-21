@@ -82,8 +82,17 @@ hr{
     text-align: center;
     font-size: 15px;
 }
+/*                          FOOTER                              */
+/*                          FOOTER                              */
 .footer{
     display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.social_media_div, .inner_one, .inner_two,
+.inner_three, .inner_zero{
+    width: 200px;
 }
 .footer ul{
     list-style: none;
@@ -97,4 +106,19 @@ hr{
 .resources p, .solutions p, .features p,
 .products p, .legal p, .company p{
     font-size: 15px;
+}
+#scissor_image{
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+#scissor_image img{
+    height: 20px;
+    width: 20px;
+}
+#socials img{
+    height: 20px;
+    width: 20px;
 }
