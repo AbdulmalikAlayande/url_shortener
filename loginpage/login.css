@@ -3,8 +3,138 @@ body{
     justify-content: center;
 }
 .LOGIN_PAGE_DIV{
+    padding: 90px;
     width: 50%;
     border-style: solid;
-    height: 700px;
+    height: 800px;
+    border-width: 1px;
+    background-color: rgb(30, 52, 72);
+
+}
+.signup_with_apple_or_google{
+    display: grid;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.signup_div{
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+}
+.google_and_apple_buttons{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.google_and_apple_buttons button{
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+hr{
+    width: 150px;
+    border-style: solid;
     border-width: 1px;
 }
+.horizontal_line_and_separator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.user_credentials_input_div{
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    height: 200px;
+    width: 100%;
+}
+.user_credentials_input_div input{
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+}
+.login_section{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+    height: 85px;
+}
+.login_section button{
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+}
+.dont_have_an_account_section{
+    justify-content: center;
+    display: grid;
+    color: bisque;
+}
+.dont_have_an_account_section a{
+    color: aquamarine;
+}
+.agreement_to_privacy_terms_and_policy_div{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+/*                          FOOTER                              */
+/*                          FOOTER                              */
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.social_media_div, .inner_one, .inner_two,
+.inner_three, .inner_zero{
+    width: 200px;
+}
+.footer ul{
+    list-style: none;
+}
+.resources, .solutions, .features,
+.products, .legal, .company{
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+}
+.resources p, .solutions p, .features p,
+.products p, .legal p, .company p{
+    font-size: 15px;
+}
+#scissor_image{
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+#scissor_image img{
+    height: 20px;
+    width: 20px;
+}
+#socials img{
+    height: 20px;
+    width: 20px;
+}
+
