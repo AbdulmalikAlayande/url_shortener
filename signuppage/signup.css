@@ -77,5 +77,24 @@ hr{
     display: grid;
 }
 .agreement_to_privacy_terms_and_policy_div{
-
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+}
+.footer ul{
+    list-style: none;
+}
+.resources, .solutions, .features,
+.products, .legal, .company{
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+}
+.resources p, .solutions p, .features p,
+.products p, .legal p, .company p{
+    font-size: 15px;
 }
