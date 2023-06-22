@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
 </head>
 <body>
       <div>
@@ -36,18 +37,19 @@
                   </div>
                   <div>
                     <label>
-                      <input type="email" value="Email" pattern="">
+                      <input type="email" name="email" value="Email" pattern="" required>
                     </label>
                   </div>
                   <div>
                     <label>
-                      <input type="password" value="Password">
+                      <input class="password" type="password" name="password" value="Password" pattern="" required
+                             title="password must contain at least 6 characters with one special character and one Uppercase letter">
                         <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
                     </label>
                   </div>
                   <div>
                     <label>
-                      <input type="password" value="Retype password">
+                      <input type="password" name="retype_password" value="Retype password" pattern="" required>
                       <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
                     </label>
                   </div>
