@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="signup.css">
-    <script src="signup.js"></script>
+    <script src="signup.js" defer></script>
 </head>
 <body>
       <div>
@@ -29,41 +28,43 @@
             </div>
 <!--            User Credentials Input          -->
 <!--            User Credentials Input          -->
-            <div class="user_credentials_input_div">
-                  <div>
-                    <label>
-                      <input value="Username" required>
-                    </label>
-                  </div>
-                  <div>
-                    <label>
-                      <input type="email" name="email" value="Email" pattern="" required>
-                    </label>
-                  </div>
-                  <div>
-                    <label>
-                      <input class="password" type="password" name="password" value="Password" pattern="" required
-                             title="password must contain at least 6 characters with one special character and one Uppercase letter">
-                        <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
-                    </label>
-                  </div>
-                  <div>
-                    <label>
-                      <input type="password" name="retype_password" value="Retype password" pattern="" required>
-                      <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
-                    </label>
-                  </div>
+          <form class="form" id="form">
+                <div class="user_credentials_input_div">
+                    <div>
+                        <label>
+                            <input value="Username" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="email" name="email" value="Email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input id="password" type="password" value="Password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}">
+                            <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="password" value="Retype password"  required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}">
+                            <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
+                        </label>
+                    </div>
             </div>
-<!--                        Sign up with Email Section                      -->
-<!--                        Sign up with Email Section                      -->
-            <section class="signup_with_email_section">
-                <section>
-                    <button>Sign up with Email</button>
-                </section>
-                <section class="already_have_an_account_section">
-                    <p>Already have an account? <a href="../loginpage/login.html">Login</a></p>
-                </section>
-            </section>
+              <!--                        Sign up with Email Section                      -->
+              <!--                        Sign up with Email Section                      -->
+              <section class="signup_with_email_section">
+                  <section>
+                      <button id="button" type="submit">Sign up with Email</button>
+                  </section>
+                  <section class="already_have_an_account_section">
+                      <p>Already have an account? <a href="../loginpage/login.html">Login</a></p>
+                  </section>
+              </section>
+          </form>
+
             <section class="agreement_to_privacy_terms_and_policy_div">
                 <p>By signing up, you agree to<br>Scissor <b>Terms Of Service, Privacy Policy</b> And <b>Acceptable Use Policy</b></p>
             </section>
