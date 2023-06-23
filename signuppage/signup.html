@@ -32,23 +32,23 @@
                 <div class="user_credentials_input_div">
                     <div>
                         <label>
-                            <input value="Username" required>
+                            <input id="username" value="Username" required>
                         </label>
                     </div>
-                    <div>
+                    <div id="email_div">
                         <label>
                             <input type="email" name="email" value="Email" required>
                         </label>
                     </div>
-                    <div>
+                    <div id="password_div">
                         <label>
-                            <input id="password" type="password" value="Password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}">
+                            <input id="password" type="password" value="Password" required>
                             <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
                         </label>
                     </div>
                     <div>
                         <label>
-                            <input type="password" value="Retype password"  required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}">
+                            <input id="retype_password" type="password" value="Retype password"  required>
                             <p>6 or more characters, one number, one uppercase letter and one lower case letter</p>
                         </label>
                     </div>
